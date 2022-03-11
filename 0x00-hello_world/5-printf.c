@@ -5,6 +5,6 @@ include <stdio.h>
   *Return: Always 0 (success)
   */
 int main(void)
-{ puts("\" Programming is like building.....");
+{ puts("\" with proper grammar, but the outcome is a piece of art);
 	return (0);
 }
