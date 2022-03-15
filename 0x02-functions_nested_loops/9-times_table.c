@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * times_table - Prints array of multiplication tables starting from 0
- *Values in 'putchar' are given in ASCII format codes
+ *times_table - Prints array of multiplication tables starting from 0
+ *values in 'putchar' are given in ASCII format codes
  *Return: 9 times tables
  **/
 void times_table(void)
-{	
-int x, y, z;
-for (x = 0; x <= 9; x++
 {
+int x, y, z;
+for (x = 0; x <= 9; x++)
+}
 _putchar(48);
 for (y = 1; y <= 9; y++)
 {
@@ -27,4 +27,5 @@ _putchar((z % 10) + 48);
 }
 }
 _putchar('\n');
+}
 }
