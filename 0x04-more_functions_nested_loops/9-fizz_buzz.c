@@ -4,7 +4,6 @@
  * Return: Always 0.
  */
 int main(void)
-{
 int n;
 n = 1;
 printf("%d", n);
@@ -20,12 +19,11 @@ printf(" Fizz");
 }
 else if (n % 5 == 0)
 {
-rintf(" Buzz");
+printf(" Buzz");
 }
 else
 {
 printf(" %d", n);
-}
 }
 printf("\n");
 return (0);
