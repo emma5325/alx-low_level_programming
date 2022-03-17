@@ -6,6 +6,7 @@
 int main(void)
 {
 int n;
+n = 1;
 printf("%d", n);
 for (n = 2; n <= 100; n++)
 {
@@ -19,7 +20,7 @@ printf(" Fizz");
 }
 else if (n % 5 == 0)
 {
-printf(" Buzz");
+rintf(" Buzz");
 }
 else
 {
