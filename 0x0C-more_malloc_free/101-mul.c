@@ -26,11 +26,26 @@ void _is_zero(char *argv[])
 	if (isn1 == 1 || isn2 == 1)
 	{
 		printf("0\n");
+		exit(0);
 	}
-	exit(0);
 }
 /**
  * _initialize_array - set memery to zero in a new array
+ * @ar: char array.
+ * @lar: length of the char array.
+ * Return: pointer of a char array.
+ */
+char *_initialize_array(char *ar, int lar)
+{
+	int i = 0;
+
+	for (i = 0; i < lar; i++)
+		ar[i] = '0';
+	ar[lar] = '\0';
+	return (ar);
+}
+/**
+ * _checknum - determines length of the number
  * and checks if number is in base 10.
  * @argv: arguments vector.
  * @n: row of the array.
